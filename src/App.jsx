@@ -132,8 +132,14 @@ export default function CesarCastroCV() {
     "Comfortable translating business needs into technical solutions",
   ];
 
+  const profileLinks = {
+    github: "https://github.com/ce-castro",
+    linkedin: "https://www.linkedin.com/in/cesar-castro-984362b1/",
+    resume: "/Cesar-Castro-Resume.pdf",
+  };
+
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100">
+    <div id="top" className="min-h-screen bg-slate-950 text-slate-100">
       <div className="mx-auto max-w-6xl px-6 py-10 md:px-10 lg:px-12">
         <header className="grid gap-6 rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 p-8 shadow-2xl md:grid-cols-[1.5fr_0.9fr] md:p-10">
           <div>
@@ -141,7 +147,7 @@ export default function CesarCastroCV() {
               Personal Resume Site
             </p>
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
-              Cesar Ernesto Castro
+              Cesar Castro
             </h1>
             <p className="mt-4 max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
               Experienced Software Engineer with 10+ years of experience leading
@@ -153,13 +159,30 @@ export default function CesarCastroCV() {
                 href="mailto:ce.castro@outlook.es"
                 className="rounded-2xl bg-sky-500 px-5 py-3 font-medium text-slate-950 transition hover:scale-[1.02]"
               >
-                Contact Me
+                Email Me
               </a>
               <a
-                href="#experience"
+                href={profileLinks.github}
+                target="_blank"
+                rel="noreferrer"
                 className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
               >
-                View Experience
+                GitHub
+              </a>
+              <a
+                href={profileLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
+              >
+                LinkedIn
+              </a>
+              <a
+                href={profileLinks.resume}
+                download
+                className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
+              >
+                Download CV
               </a>
             </div>
           </div>
@@ -190,6 +213,27 @@ export default function CesarCastroCV() {
               <div>
                 <p className="text-slate-500">Location</p>
                 <p className="mt-1 text-base text-slate-100">El Salvador</p>
+              </div>
+              <div>
+                <p className="text-slate-500">Profiles</p>
+                <div className="mt-2 flex flex-wrap gap-3 text-base">
+                  <a
+                    href={profileLinks.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sky-300 hover:text-sky-200"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href={profileLinks.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sky-300 hover:text-sky-200"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -353,10 +397,27 @@ export default function CesarCastroCV() {
                 Email Me
               </a>
               <a
-                href="#top"
+                href={profileLinks.github}
+                target="_blank"
+                rel="noreferrer"
                 className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
               >
-                Back to Top
+                GitHub
+              </a>
+              <a
+                href={profileLinks.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
+              >
+                LinkedIn
+              </a>
+              <a
+                href={profileLinks.resume}
+                download
+                className="rounded-2xl border border-slate-700 px-5 py-3 font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
+              >
+                Download CV
               </a>
             </div>
           </div>
