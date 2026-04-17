@@ -552,6 +552,52 @@ export default function CesarCastroCV() {
         </section>
       </div>
 
+      {/* JSON-LD Structured Data for SEO */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Cesar Castro",
+          jobTitle: "Technical Team Lead",
+          description:
+            "Full-stack software engineer with 10+ years of experience in React, Angular, Node.js, GraphQL, and technical leadership",
+          email: "ce.castro@outlook.es",
+          url: "https://ce-castro.github.io/",
+          sameAs: [
+            "https://github.com/ce-castro",
+            "https://www.linkedin.com/in/cesar-castro-984362b1/",
+          ],
+          workLocation: {
+            "@type": "Place",
+            name: "Remote",
+            address: {
+              "@type": "PostalAddress",
+              addressCountry: "SV",
+              addressLocality: "El Salvador",
+            },
+          },
+          knowsAbout: [
+            "React",
+            "Angular",
+            "Next.js",
+            "Node.js",
+            "TypeScript",
+            "GraphQL",
+            "PostgreSQL",
+            "Docker",
+            "Technical Leadership",
+            "Full-Stack Development",
+          ],
+          alumniOf: {
+            "@type": "EducationalOrganization",
+            name: "Universidad de El Salvador",
+            educationalCredentialAwarded: "Computer Science Engineering",
+            startDate: "2001",
+            endDate: "2008",
+          },
+        })}
+      </script>
+
       <style>{`
         @keyframes fadeIn {
           from {
