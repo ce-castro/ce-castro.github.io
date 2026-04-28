@@ -199,7 +199,7 @@ export default function CesarCastroCV() {
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="mailto:ce.castro@outlook.es"
+                href="mailto:cesar@castroflores.net"
                 className="rounded-2xl bg-sky-500 px-5 py-3 font-medium text-slate-950 transition hover:scale-[1.02] hover:shadow-lg hover:shadow-sky-500/30"
               >
                 Email Me
@@ -238,7 +238,7 @@ export default function CesarCastroCV() {
               <div>
                 <p className="text-slate-500">Email</p>
                 <p className="mt-1 break-all text-base text-slate-100">
-                  ce.castro@outlook.es
+                  cesar@castroflores.net
                 </p>
               </div>
               <div>
@@ -519,7 +519,7 @@ export default function CesarCastroCV() {
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="mailto:ce.castro@outlook.es"
+                href="mailto:cesar@castroflores.net"
                 className="rounded-2xl bg-sky-500 px-5 py-3 font-medium text-slate-950 transition hover:scale-[1.02] hover:shadow-lg hover:shadow-sky-500/30"
               >
                 Email Me
@@ -561,8 +561,8 @@ export default function CesarCastroCV() {
           jobTitle: "Technical Team Lead",
           description:
             "Full-stack software engineer with 10+ years of experience in React, Angular, Node.js, GraphQL, and technical leadership",
-          email: "ce.castro@outlook.es",
-          url: "https://ce-castro.github.io/",
+          email: "cesar@castroflores.net",
+          url: "https://cesar.castroflores.net/",
           sameAs: [
             "https://github.com/ce-castro",
             "https://www.linkedin.com/in/cesar-castro-984362b1/",
