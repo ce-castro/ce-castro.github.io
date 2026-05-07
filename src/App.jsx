@@ -126,6 +126,15 @@ export default function CesarCastroCV() {
         "Technical Documentation",
       ],
     },
+    {
+      title: "AI Tools",
+      items: [
+        "Claude",
+        "GitHub Copilot",
+        "AI-Assisted Development",
+        "Code Generation",
+      ],
+    },
   ];
 
   const highlights = [
